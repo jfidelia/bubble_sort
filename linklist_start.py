@@ -61,6 +61,6 @@ itemlist.dump_list()
 
 # delete an item
 itemlist.deleteAt(3)
-print("Item count: ", itemlist.find(38))
+print("Item count: ", itemlist.get_count())
 print("Fiding item: ", itemlist.find(38))
 itemlist.dump_list()
